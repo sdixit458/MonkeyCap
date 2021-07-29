@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.monkeycap.TestScripts.EditVehicleDetailsTest">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="editvehicle"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.monkeycap.TestScripts.EditVehicleDetailsTest -->
+      <class name="com.monkeycap.TestScripts.InsureNewCarTest">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="openbrowser"/>
+          <include name="newcar"/>
+        </methods>
+      </class> <!-- com.monkeycap.TestScripts.InsureNewCarTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
